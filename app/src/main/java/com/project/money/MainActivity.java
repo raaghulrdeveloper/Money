@@ -1,5 +1,6 @@
 package com.project.money;
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Point;
@@ -42,13 +43,15 @@ public class MainActivity extends AppCompatActivity {
         ImageView iv_background = (ImageView) findViewById(R.id.img_bg);
         iv_background.setImageBitmap(bmp);
       //  bg=(ImageView)findViewById(R.id.bg);
-        img_day.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),"You have presses DAY",Toast.LENGTH_LONG).show();
-            }
-        });
 
 
+
+    }
+
+    public void clickme(View v)
+    {
+
+        Intent i=new Intent(this,Second.class);
+        startActivity(i);
     }
 }
