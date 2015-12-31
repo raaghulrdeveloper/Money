@@ -15,12 +15,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name="com.project.money.Second" android:label="@string/title_activity_second"
+            android:theme="@style/AppTheme.NoActionBar" android:parentActivityName="com.project.money.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.project.money.MainActivity" />
+        </activity>
     </application>
 
 
-    <activity android:name="com.project.money.second" android:label="@string/title_activity_second"
-        android:theme="@style/AppTheme.NoActionBar" android:parentActivityName="com.project.money.MainActivity">
-        <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.project.money.MainActivity" />
-    </activity>
+
 
 </manifest>
