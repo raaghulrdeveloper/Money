@@ -10,12 +10,13 @@
         android:src="@drawable/additem"
         app:elevation="5dp"
         app:backgroundTint="@color/colorPrimary"
-        android:onClick="addNewNoteFunction"
+        android:onClick="myfunc"
         android:layout_marginBottom="37dp"
         android:layout_marginRight="5dp"
         app:borderWidth="0dp"
         app:rippleColor="@color/colorPrimaryDark"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="34dp" />
+        android:layout_marginEnd="34dp"
+        android:nestedScrollingEnabled="true" />
 </RelativeLayout>
