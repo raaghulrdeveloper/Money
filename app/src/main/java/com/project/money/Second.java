@@ -1,5 +1,6 @@
 package com.project.money;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -44,9 +45,11 @@ public class Second extends AppCompatActivity {
     public void click(MenuItem i)
     {
 
-        Toast.makeText(this, "you clicked the menu",Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "you clicked the menu", Toast.LENGTH_SHORT).show();
 
     }
+
+
 }
 
 

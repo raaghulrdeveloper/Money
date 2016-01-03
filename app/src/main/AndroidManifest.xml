@@ -21,7 +21,7 @@
             <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.project.money.MainActivity" />
         </activity>
 
-
+    <activity android:name=".Menu"></activity>
     </application>
 
 
