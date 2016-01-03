@@ -6,9 +6,10 @@
     app:showAsAction="never"
     android:onClick="click"/>
 
-    <item android:title="Email Us"
+    <item android:title="About Us"
         app:showAsAction="never"
-        android:onClick="emailus"/>
+        android:onClick="about"
+      />
 
 
 
