@@ -20,6 +20,8 @@
             android:theme="@style/AppTheme" android:parentActivityName="com.project.money.MainActivity">
             <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.project.money.MainActivity" />
         </activity>
+
+
     </application>
 
 

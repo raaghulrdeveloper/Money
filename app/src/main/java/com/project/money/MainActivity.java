@@ -9,12 +9,16 @@ import android.graphics.drawable.StateListDrawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Display;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.TextClock;
 import android.widget.Toast;
 
 import com.project.money.R;
@@ -50,8 +54,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void clickme(View v)
     {
-
         Intent i=new Intent(this,Second.class);
         startActivity(i);
     }
+
+
 }
