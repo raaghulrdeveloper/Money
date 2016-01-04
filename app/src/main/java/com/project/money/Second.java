@@ -24,6 +24,10 @@ public class Second extends AppCompatActivity {
     {
         Toast toast = Toast.makeText(getApplicationContext(), "you clicked the fab button!!!",Toast.LENGTH_SHORT);
         toast.show();
+        //Intent i= new Intent(Second.this,Third.class);
+        Intent i= new Intent(Second.this,Listitem.class);
+        startActivity(i);
+
     }
 
 
@@ -45,6 +49,8 @@ public class Second extends AppCompatActivity {
         Intent i= new Intent(Second.this,Aboutus.class);
         startActivity(i);
     }
+
+
 
 
 
